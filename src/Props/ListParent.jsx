@@ -7,7 +7,15 @@ export default function ListParent() {
     <div>
         <ListChild 
         f={fruits}
+
+        
         />
+
+       {/* {fruits.map((f,index)=>
+      (
+        <li key={index}>{f}</li>
+      )
+      )} */}
     </div>
   )
 }

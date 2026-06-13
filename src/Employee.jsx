@@ -9,7 +9,7 @@ export default function Employee({n,d,s}) {
         <h2 style={{
           color: s >40000 ? "green" : "red"
           }}>
-        Status : {s > 40000 ? <p> High Salary </p> : <p> Normal Salary </p> }</h2>
+        Status : {s > 40000 ?  "High Salary"  : <p> Normal Salary </p> }</h2>
     </div>
   )
 }
