@@ -24,6 +24,7 @@ import Task2Card from './Task2Card'
 import Task1 from './Task1'
 import Rough from './Product_Cards/Rough'
 import Roughtask1 from './Roughtask1'
+import TimeBlink from './TimeBlink'
 
 
 function App() {
@@ -72,6 +73,8 @@ function App() {
     {/* <Rough/> */}
 
     <Roughtask1/>
+
+    <TimeBlink/>
     </>
   )
 }
