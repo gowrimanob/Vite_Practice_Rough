@@ -23,7 +23,7 @@ import List3Task from './List3Task'
 import Task2Card from './Task2Card'
 import Task1 from './Task1'
 import Rough from './Product_Cards/Rough'
-import Roughtask1 from './Roughtask1'
+// import Roughtask1 from './Roughtask1'
 import TimeBlink from './TimeBlink'
 
 
@@ -70,11 +70,13 @@ function App() {
     <BtnClick />
 
     <h1 className='tt'>Task 14 - Just rough work</h1>
-    {/* <Rough/> */}
-
-    <Roughtask1/>
+    <Rough/>
+{/* 
+    <Roughtask1/> */}
 
     <TimeBlink/>
+
+    
     </>
   )
 }

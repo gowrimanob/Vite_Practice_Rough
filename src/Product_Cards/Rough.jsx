@@ -14,6 +14,7 @@ export default function Rough() {
     const filterdata = Object.values(obj).filter((item) => item.toString().toLowerCase().includes(search.toLowerCase()))
     return (
         <div>
+            <h1>Rough task</h1>
             <input type="text" placeholder='Search' onChange={(e) => setSearch(e.target.value)} />
             {Object.values(obj).map((item, index) => (
                 <li key={index}>
